@@ -3,8 +3,6 @@
 @tailwind utilities;
 .mystyle{
     display: flex;
-    border: 1px solid red;
-    
 }
 .blur{
     filter: blur(2px);
@@ -12,13 +10,25 @@
 .image_here{
     border-radius: 30% 70% 70% 30% / 46% 46% 54% 54% ;
 }
-
 .image_here_extra_border{
     border-radius: 30% 70% 70% 30% / 46% 70% 30% 54% ;
 }
 .colorme{
     border: 1px solid black;
 }
+.nico{
+    border-radius: 6%;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
