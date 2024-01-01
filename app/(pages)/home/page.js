@@ -3,7 +3,8 @@ import Nav from "../../(pages)/nav/page"
 import Image from 'next/image'
 import Nicola from "../../img/nicola (1).jpeg"
 import insta from "../../img/instagram.png"
-import About from '../about/page'
+import TheAbout from '../../without/about/page'
+import TheContact from '../../without/contact/page'
 export default function home() {
   return (
     <div className='kala'>
@@ -35,7 +36,8 @@ export default function home() {
           </div>
         </div>
       </div>
-      <About/>
+      <TheAbout/>
+      <TheContact/>
     </div>
   )
 }

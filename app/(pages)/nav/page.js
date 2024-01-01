@@ -3,7 +3,7 @@
  import Image from 'next/image'
 import menu from "../../img/menu.png"
 import Link from 'next/link';
-import close from "../../img/close.png"
+
 
 class MyComponent extends Component {
 componentDidMount() {}
