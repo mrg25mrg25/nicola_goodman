@@ -19,7 +19,9 @@
 .nico{
     border-radius: 6%;
 }
-
+.navList_hiddden{
+    display: none;
+}
 
 
 
