@@ -24,16 +24,7 @@ class MyComponent extends Component {
   return (
     <div className="about">
       <Nav/>
-    <div id='opacity' className=' bg-gray-200 p-4'>
-      
-      <div className="text text-center font-bold tracking-wider text-4xl pb-5 ">About Me</div>
-      <div className="buttons flex flex-row mx-auto w-fit gap-4 flex-wrap justify-center capitalize cursor-pointer">
-        <div className="personal_info border border-blue-400 px-2 py-1 rounded "
-        onClick={its_perssonal}>personnal info</div>
-        <div className="qualification border border-blue-400 px-2 py-1 rounded">qualification</div>
-        <div className="skills border border-blue-400 px-2 py-1 rounded">skills</div>
-      </div>
-
+      <p onClick={its_perssonal}>tip de</p>
       <div className="aboutPages w-fit mx-auto mt-5 mb-5">
         <div className="personal_here">
         <Personal/>
@@ -45,7 +36,6 @@ class MyComponent extends Component {
        <Skills/>
        </div>
       </div>
-    </div>
    
     </div>
   )
