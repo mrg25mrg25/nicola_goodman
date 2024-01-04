@@ -23,7 +23,7 @@ componentDidMount() {}
             </div>
         </div>
       
-        <div id="myDIV" className=' nav-list hidden px-4 capitalize flex flex-col p-4 flex flex-row gap-2 '>
+        <div id="myDIV" className=' nav-list hidden px-4 capitalize flex flex-col p-4 flex flex-row gap-2 bg-gray-200 '>
           <div className="home border border-gray-800 rounded w-fit px-2 py-1">
             <Link href="../home" >home</Link>
           </div>

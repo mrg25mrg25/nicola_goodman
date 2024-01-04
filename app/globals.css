@@ -22,13 +22,23 @@
 .navList_hiddden{
     display: none;
 }
+/* 
+.aboutPages{
+    position: relative;
+ 
+}
+.aboutPages .personal_here,.qualification_here,.skills_here{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%,-50%);
+}
 
+ */
 
-
-
-
-
-
+.dekhajak{
+    border: 2px solid red;
+}
 
 
 
